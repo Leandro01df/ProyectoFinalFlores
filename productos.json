@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Bluetooth",
+    "precio": 15000,
+    "imagen": "img/auriculares.jpg",
+    "stock": 10,
+    "categoria": "Audio"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer",
+    "precio": 10000,
+    "imagen": "img/mouse.jpg",
+    "stock": 20,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico",
+    "precio": 22000,
+    "imagen": "img/teclado.jpg",
+    "stock": 8,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 4,
+    "nombre": "Silla Gamer",
+    "precio": 650000,
+    "imagen": "img/Silla.jpg",
+    "stock": 8,
+    "categoria": "Escritorio"
+  },
+  {
+    "id": 5,
+    "nombre": "Antena Starlink",
+    "precio": 700000,
+    "imagen": "img/Starlink.jpg",
+    "stock": 8,
+    "categoria": "Conectividad"
+  },
+  {
+    "id": 6,
+    "nombre": "Alexa",
+    "precio": 550000,
+    "imagen": "img/Alexa.jpg",
+    "stock": 2,
+    "categoria": "Asistente Virtual"
+  },
+  {
+    "id": 7,
+    "nombre": "TV Samsung",
+    "precio": 600000,
+    "imagen": "img/TV.jpg",
+    "stock": 9,
+    "categoria": "Electrodomésticos"
+  },
+  {
+    "id": 8,
+    "nombre": "CPU Gamer",
+    "precio": 220000,
+    "imagen": "img/CPU.jpg",
+    "stock": 8,
+    "categoria": "Componentes de Hardware"
+  },
+  {
+    "id": 9,
+    "nombre": "PS5",
+    "precio": 500000,
+    "imagen": "img/PS5.jpg",
+    "stock": 10,
+    "categoria": "Consolas de Videojuegos"
+  },
+  {
+    "id": 10,
+    "nombre": "Parlante JBL",
+    "precio": 220000,
+    "imagen": "img/Parlante.jpg",
+    "stock": 6,
+    "categoria": "Electroacústicos"
+  },
+  {
+    "id": 11,
+    "nombre": "Celular iPhone",
+    "precio": 900000,
+    "imagen": "img/Iphone.jpg",
+    "stock": 12,
+    "categoria": "Dispositivos Móviles"
+  }
+]

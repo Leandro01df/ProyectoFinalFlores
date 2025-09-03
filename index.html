@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRO ELECTRONIC</title>
+
+  <!-- CSS SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+  <!-- Estilo propio -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="brand">PRO ELECTRONIC</h1>
+    <div class="header-controls">
+      <select id="filtroCategoria" class="filtro"></select>
+      <select id="ordenar" class="filtro">
+        <option value="default">Ordenar por</option>
+        <option value="precio-asc">Precio: menor a mayor</option>
+        <option value="precio-desc">Precio: mayor a menor</option>
+        <option value="nombre-asc">Nombre A-Z</option>
+        <option value="nombre-desc">Nombre Z-A</option>
+      </select>
+      <input id="buscador" placeholder="Buscar producto...">
+      <button id="btnCarrito" class="btn">🛒 <span id="contador">0</span></button>
+      <button class="btn" id="toggleDark">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contenedor donde se renderizan los productos desde JS -->
+    <section id="contenedor-productos" class="grid"></section>
+    
+    <!-- Paginación -->
+    <div id="paginacion" class="paginacion"></div>
+  </main>
+
+  <!-- Panel lateral del carrito -->
+  <aside id="panel-carrito" class="carrito hidden">
+    <h2>Carrito</h2>
+    <div id="items-carrito" class="items"></div>
+    <div class="resumen">
+      <p id="subtotal">Subtotal: $0</p>
+      <p id="impuestos">Impuestos (21%): $0</p>
+      <p id="total">Total: $0</p>
+    </div>
+    <div class="acciones">
+      <button id="vaciarCarrito" class="btn danger">Vaciar</button>
+      <button id="btnComprar" class="btn primary">Finalizar Compra</button>
+    </div>
+  </aside>
+
+  <!-- JS SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- jsPDF desde la carpeta local -->
+  <script src="libs/jspdf.umd.min.js"></script>
+
+  <!-- Script principal -->
+  <script src="app.js"></script>
+</body>
+
+</html>
